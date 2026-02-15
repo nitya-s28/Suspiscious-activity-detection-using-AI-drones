@@ -1,9 +1,6 @@
 streamlit==1.32.0
 ultralytics==8.2.0
+numpy==1.26.4
+pillow
 torch
 torchvision
-opencv-python-headless==4.9.0.80
-numpy
-matplotlib
-pillow
-setuptools
