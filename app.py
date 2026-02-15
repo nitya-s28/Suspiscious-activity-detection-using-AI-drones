@@ -3,8 +3,16 @@ from ultralytics import YOLO
 import cv2
 import numpy as np
 
+import os
+import shutil
+
+# clear ultralytics cache
+if os.path.exists("/home/adminuser/.cache/ultralytics"):
+    shutil.rmtree("/home/adminuser/.cache/ultralytics")
+
 # Load YOLOv8 Model
-model = YOLO("yolov8n.pt")
+model = YOLO("yolov8n.pt", task="detect")
+
 
 # Title
 st.title("AI Suspicious Activity Detection using YOLOv8")
