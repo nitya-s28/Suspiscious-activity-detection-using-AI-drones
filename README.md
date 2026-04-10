@@ -1,4 +1,4 @@
-# Suspicious Activity Recognition Using Deep Learning
+# Human Poses and Suspicious Activity Recognition Using Deep Learning Models
 
 ##  Overview
 This project focuses on detecting suspicious human activities from images using deep learning techniques. The system classifies activities such as falling, fighting, firing, running, and fire-related events to improve security and surveillance efficiency.
